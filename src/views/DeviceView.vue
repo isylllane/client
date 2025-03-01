@@ -30,7 +30,7 @@ onMounted(async () => {
       >
         <v-img
           height = "200px"
-          :src = "apiBaseUrl+device.img"
+          :src = "apiBaseUrl+'/api/img/'+device.img"
 
         ></v-img>
       </v-col>

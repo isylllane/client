@@ -23,7 +23,7 @@ const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
     >
       <v-img
         height = "150px"
-        :src = "apiBaseUrl+device.img"
+        :src = "apiBaseUrl+'/api/img/'+device.img"
       ></v-img>
 
       <v-card-item>
